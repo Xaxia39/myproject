@@ -49,10 +49,10 @@ Para probar las funcionalidades, sigue estos pasos:
 2. Agrega un autor, una categoría y un libro usando los formularios correspondientes.
 3. Utiliza la función de búsqueda para encontrar un libro por su título.
 
-echo "# tercerapreentrega" >> README.md 
+echo "# miproyecto" >> README.md 
 git init 
 git add README.md 
 git commit -m "primer compromiso" 
 git rama -M principal 
-git remoto agregar origen https://github.com/Xaxia39/tercerapreentrega.git
+git remoto agregar origen https://github.com/Xaxia39/myproject.git
  git push - u origen principal
