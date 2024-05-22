@@ -11,24 +11,24 @@ Este proyecto es una aplicación web en Django que sigue el patrón MVT. Contien
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu_usuario/myproject.git
+    git clone https://github.com/xaxia39/myproject.git
     cd myproject
     ```
 
-2. Crea un entorno virtual e instala las dependencias:
+2. Crear un entorno virtual e instala las dependencias:
     ```bash
     python -m venv env
     source env/bin/activate
     pip install -r requirements.txt
     ```
 
-3. Realiza las migraciones:
+3. Realizar las migraciones:
     ```bash
     python manage.py makemigrations
     python manage.py migrate
     ```
 
-4. Ejecuta el servidor de desarrollo:
+4. Ejecutar el servidor de desarrollo:
     ```bash
     python manage.py runserver
     ```
@@ -51,7 +51,7 @@ Para probar las funcionalidades, sigue estos pasos:
 
 echo "# miproyecto" >> README.md 
 git init 
-git add README.md 
+git add README.md git remote remove origin
 git commit -m "primer compromiso" 
 git rama -M principal 
 git remoto agregar origen https://github.com/Xaxia39/myproject.git
